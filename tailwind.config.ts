@@ -53,16 +53,15 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Custom colors based on design images
-        'lime-custom': '#ADFF2F', // A bright lime green, adjust hex if needed for exact match
-        'dark-background-custom': '#0A0A0A', // A very dark gray, almost black
+        'lime-custom': '#ADFF2F',
+        'dark-background-custom': '#0A0A0A',
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
-        '3xl': '1.5rem', // For the ContactForm card
-        '4xl': '2rem', // Example for larger rounded corners if needed
+        '3xl': '1.5rem',
+        '4xl': '2rem',
       },
       keyframes: {
         "accordion-down": {
