@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Twitter, Instagram, Facebook, Dribbble, Figma } from "lucide-react"; // Figma for Behance
+import { Twitter, Instagram, Facebook, Dribbble, Figma } from "lucide-react";
 
 export function Footer() {
   return (

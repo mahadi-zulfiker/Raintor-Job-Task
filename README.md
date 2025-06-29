@@ -4,11 +4,11 @@ This project is a recreation of the provided Figma UI for a developer portfolio 
 
 ## Live Demo
 
-[Link to your Vercel/Netlify deployment here]
+https://raintortask.vercel.app/
 
 ## GitHub Repository
 
-[Link to your public GitHub repository here]
+https://github.com/mahadi-zulfiker/Raintor-Job-Task
 
 ## Features Implemented
 
@@ -50,8 +50,8 @@ To run this project locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/my-developer-portfolio.git](https://github.com/your-username/my-developer-portfolio.git)
-    cd my-developer-portfolio
+    git clone [https://github.com/mahadi-zulfiker/Raintor-Job-Task](https://github.com/mahadi-zulfiker/Raintor-Job-Task)
+    cd Raintor-Job-Task
     ```
 2.  **Install dependencies:**
     ```bash
@@ -79,7 +79,6 @@ To run this project locally:
 ## Limitations and Tradeoffs
 
 * **Static Content:** The portfolio is currently static. In a real-world scenario, data for skills, work process, etc., would likely come from an API or a CMS.
-* **Image Assets:** Placeholder divs are used for images (`Import Asset Here: ...`). Actual design assets would need to be imported and placed in the `public/assets` directory.
 * **Full Accessibility Audit:** While ARIA roles and keyboard navigation are considered, a comprehensive accessibility audit with screen readers was not performed within the scope of this assessment.
 * **Complex Animations:** Only subtle animations (hover, basic background glow) are implemented. More complex, scroll-triggered animations could be added using libraries like Framer Motion.
 * **Form Submission:** The `ContactForm` `handleSubmit` currently only logs to the console; it doesn't integrate with a backend service.

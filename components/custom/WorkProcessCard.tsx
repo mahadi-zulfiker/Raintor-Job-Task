@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 interface WorkProcessCardProps {
   title: string;
   description: string;
-  colorClass?: string; // For the green card
+  colorClass?: string;
   isClickable?: boolean;
 }
 
@@ -14,7 +14,7 @@ export function WorkProcessCard({ title, description, colorClass, isClickable = 
   return (
     <Card className={cn(
       "rounded-2xl p-6 flex flex-col justify-between transition-all duration-300",
-      colorClass ? colorClass : "bg-card border-none dark:bg-black", // Default dark mode to black for cards in this section
+      colorClass ? colorClass : "bg-card border-none dark:bg-black",
       isClickable && "hover:scale-[1.02] hover:shadow-lg"
     )}>
       <CardContent className="p-0">
